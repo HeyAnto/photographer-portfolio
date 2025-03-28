@@ -136,9 +136,14 @@ section {
   }
 
   .grid-card {
-    display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-column-gap: 0.75rem;
+    grid-row-gap: 3.125rem;
+  }
+
+  .grid-services {
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 3.125rem;
     grid-row-gap: 3.125rem;
   }
 }
@@ -147,6 +152,11 @@ section {
   :root {
     --font-size-h1: 5rem;
     --font-size-h2: 5rem;
+  }
+
+  .grid-services {
+    grid-template-columns: repeat(1, 1fr);
+    grid-row-gap: 0.75rem;
   }
 }
 
