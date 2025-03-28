@@ -20,8 +20,8 @@
   </head>
 
   <body class="flex flex-column items-center">
-    <!-- Section Hero -->
-    <section class="flex flex-column p-25">
+    <!-- Hero Section -->
+    <section class="hero-section flex flex-column p-25">
       <div class="hero-image flex flex-column justify-center items-center">
         <h1 class="text-center">
           John Doe
@@ -34,27 +34,50 @@
     <main class="flex flex-column items-center p-26">
       <!-- Content -->
       <div class="content flex flex-column">
-        <!-- Section Biographie -->
-        <section class="content-section flex flex-column items-center mt-50">
-          <h2 class="flex items-center text-center gap-5">
-            A
-            <img src="/assets/img/image-ti-1.webp" alt="Image Montagne" />
-            tiny mountain
-          </h2>
+        <!-- Biographie Section -->
+        <section
+          class="content-section flex flex-column items-center mtb-50 gap-25"
+        >
+          <div class="title-section flex flex-column items-center">
+            <div class="flex flex-wrap justify-center items-center gap-5">
+              <h2>Un</h2>
+              <img src="/assets/img/image-ti-1.webp" alt="Image Montagne" />
+              <h2>petit</h2>
+              <h2>village</h2>
+              <h2>de</h2>
+              <h2>montagne</h2>
+              <img
+                src="/assets/img/image-ti-2.webp"
+                alt="Image Village de Montagne"
+              />
+              <h2>où</h2>
+              <h2>tout</h2>
+              <h2>a</h2>
+              <h2>commencé...</h2>
+              <img src="/assets/img/image-ti-3.webp" alt="Moi" />
+            </div>
+          </div>
+          <div class="bio-section text-center">
+            <p>
+              Je suis John Doe, photographe passionné par l’art de capturer
+              l’authenticité et l’émotion à travers l’image. J’aime révéler la
+              personnalité unique de chaque personne ou lieu. À travers mes
+              portraits, scènes urbaines et paysages, je cherche à figer des
+              instants qui marquent.
+            </p>
+          </div>
+        </section>
 
-          <h2 class="flex items-center text-center gap-5">
-            village
-            <img
-              src="/assets/img/image-ti-2.webp"
-              alt="Image Village de Montagne"
-            />
-            where it all
-          </h2>
-
-          <h2 class="flex items-center text-center gap-5">
-            began...
-            <img src="/assets/img/image-ti-3.webp" alt="Moi" />
-          </h2>
+        <!-- Photo Section -->
+        <section
+          class="content-section flex flex-column items-center mtb-50 gap-25"
+        >
+          <div class="grid-card">
+            <div class="card">
+              <img src="/assets/img/" alt="" />
+              <h3>Titre</h3>
+            </div>
+          </div>
         </section>
       </div>
     </main>

@@ -34,10 +34,6 @@ body::before {
   z-index: -1;
 }
 
-section {
-  width: 100%;
-}
-
 .hero-image {
   position: relative;
   width: 100%;
@@ -69,9 +65,37 @@ main {
   flex: 1;
 }
 
+section {
+  width: 100%;
+}
+
 .content {
   width: 100%;
   max-width: 1024px;
+}
+
+.title-section {
+  width: 100%;
+  max-width: 600px;
+}
+
+.span-title {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-h2);
+  line-height: var(--line-height-title);
+}
+
+.bio-section {
+  width: 100%;
+  max-width: 600px;
+}
+
+.grid-card {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 3.125rem;
+  grid-row-gap: 3.125rem;
 }
 
 /* Media Queries */
@@ -79,7 +103,33 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 12px;
+  }
+
+  .title-section {
+    padding: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  :root {
+    --font-size-h1: 5rem;
+    --font-size-h2: 5rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
+  :root {
+    --font-size-h1: 3rem;
+    --font-size-h2: 3rem;
+  }
+
+  .title-section div {
+    gap: 0.3125rem;
+  }
+
+  .title-section div img {
+    height: 50px;
+  }
 }

@@ -65,6 +65,10 @@
   gap: calc(var(--spacing-unit) * 10);
 }
 
+.gap-25 {
+  gap: calc(var(--spacing-unit) * 25);
+}
+
 /* Padding */
 .p-1 {
   padding: calc(var(--spacing-unit) * 1);
@@ -111,9 +115,10 @@
   margin: calc(var(--spacing-unit) * 5);
 }
 
-/* Margin Top */
-.mt-50 {
+/* Margin Top & Down */
+.mtb-50 {
   margin-top: calc(var(--spacing-unit) * 50);
+  margin-bottom: calc(var(--spacing-unit) * 50);
 }
 
 /* Text Align */
