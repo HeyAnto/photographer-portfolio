@@ -110,3 +110,13 @@
 .m-5 {
   margin: calc(var(--spacing-unit) * 5);
 }
+
+/* Margin Top */
+.mt-50 {
+  margin-top: calc(var(--spacing-unit) * 50);
+}
+
+/* Text Align */
+.text-center {
+  text-align: center;
+}

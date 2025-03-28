@@ -39,7 +39,7 @@
 }
 
 ::selection {
-  background: #ffffff10;
+  background: #ffffff20;
 }
 
 /* Font Style */
@@ -49,16 +49,19 @@ h3,
 h4,
 h5,
 h6 {
+  font-family: var(--font-family-primary);
   font-weight: var(--font-weight-bold);
   color: var(--color-white);
 }
 
 h1 {
+  font-family: var(--font-family-secondary);
   font-size: var(--font-size-h1);
   line-height: var(--line-height-title);
 }
 
 h2 {
+  font-family: var(--font-family-secondary);
   font-size: var(--font-size-h2);
   line-height: var(--line-height-title);
 }
