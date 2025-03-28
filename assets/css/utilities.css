@@ -121,6 +121,15 @@
   margin-bottom: calc(var(--spacing-unit) * 50);
 }
 
+/* Border Radius */
+.br-14 {
+  border-radius: 0.875rem;
+}
+
+.br-30 {
+  border-radius: 1.875rem;
+}
+
 /* Text Align */
 .text-center {
   text-align: center;
