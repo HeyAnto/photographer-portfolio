@@ -74,12 +74,15 @@ body::before {
   opacity: 0.5;
 }
 
-.scroll-down img {
+.scroll-down object {
   width: 30px;
   height: 30px;
 
-  filter: invert(1);
   animation: bounce 1.5s infinite;
+}
+
+.scroll-icon {
+  --icon-color: var(--color-white);
 }
 
 .scroll-down:hover {
@@ -116,7 +119,7 @@ section {
 }
 
 .bio-img:hover {
-  transform: scale(1.4);
+  transform: scale(1.2);
   box-shadow: 0 0 10px var(--color-opa-white);
 }
 
