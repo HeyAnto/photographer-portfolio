@@ -32,7 +32,7 @@
 
   /* Line heights */
   --line-height-title: 90%;
-  --line-height-sub-title: 25;
+  --line-height-sub-title: 25px;
 
   /* Spacing Scale (Base: 2px / 0.125rem) */
   --spacing-unit: 0.125rem;
