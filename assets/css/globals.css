@@ -16,6 +16,10 @@
   --color-dark: #0a0a0a;
   --color-white: #ffffff;
 
+  /* Opa Color */
+  --color-opa-dark: #0a0a0a20;
+  --color-opa-white: #ffffff20;
+
   /* Font Family */
   --font-family-primary: "BDO Grotesk", "Arial", sans-serif;
   --font-family-secondary: "Instrument Serif", serif;
@@ -39,7 +43,8 @@
 }
 
 ::selection {
-  background: #ffffff10;
+  background: none;
+  text-shadow: 0 0 10px var(--color-white);
 }
 
 /* Font Style */

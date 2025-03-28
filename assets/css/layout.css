@@ -49,21 +49,51 @@ body::before {
   overflow: hidden;
 }
 
-.hero-image::before {
-  content: "";
+.hero-background {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 
-  background-image: url(/assets/img/hero/image-hero-1.webp);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.4;
 
   z-index: -1;
+}
+
+.scroll-down {
+  position: absolute;
+  transform: translateX(-50%);
+  bottom: 30px;
+  left: 50%;
+
+  color: var(--color-white);
+  opacity: 0.5;
+}
+
+.scroll-down img {
+  width: 30px;
+  height: 30px;
+
+  filter: invert(1);
+  animation: bounce 1.5s infinite;
+}
+
+.scroll-down:hover {
+  opacity: 1;
+}
+
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(8px);
+  }
 }
 
 main {
@@ -83,6 +113,23 @@ section {
 .title-section {
   width: 100%;
   max-width: 600px;
+}
+
+.bio-img:hover {
+  transform: scale(1.4);
+  box-shadow: 0 0 10px var(--color-opa-white);
+}
+
+.bio-img-1:hover {
+  rotate: 5deg;
+}
+
+.bio-img-2:hover {
+  rotate: -5deg;
+}
+
+.bio-img-3:hover {
+  rotate: 5deg;
 }
 
 .bio-section {
@@ -170,7 +217,7 @@ section {
     gap: 0.3125rem;
   }
 
-  .title-section div img {
+  .bio-img {
     height: 50px;
   }
 }
