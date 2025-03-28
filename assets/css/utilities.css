@@ -86,12 +86,16 @@
   padding: calc(var(--spacing-unit) * 5);
 }
 
-.p-25 {
-  padding: calc(var(--spacing-unit) * 25);
+.p-7 {
+  padding: calc(var(--spacing-unit) * 7);
 }
 
 .p-10 {
   padding: calc(var(--spacing-unit) * 10);
+}
+
+.p-25 {
+  padding: calc(var(--spacing-unit) * 25);
 }
 
 .p-25 {

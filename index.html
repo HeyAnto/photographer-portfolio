@@ -4,11 +4,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="John Doe Photography - la vie la vraie" />
-    <meta
-      name="keywords"
-      content="photography, John Doe, nature, events, people, photos"
-    />
+    <meta name="description" content="John Doe Photographer Portfolio" />
     <meta name="author" content="John Doe" />
     <meta name="robots" content="index" />
 
@@ -37,9 +33,7 @@
       <!-- Content -->
       <div class="content flex flex-column">
         <!-- Biographie Section -->
-        <section
-          class="content-section flex flex-column items-center mtb-50 gap-25"
-        >
+        <section class="flex flex-column items-center mtb-50 gap-25">
           <div class="title-section flex flex-column items-center">
             <div class="flex flex-wrap justify-center items-center gap-5">
               <h2>Un</h2>
@@ -80,9 +74,7 @@
         </section>
 
         <!-- Photo Section -->
-        <section
-          class="content-section flex flex-column items-center mtb-50 gap-25"
-        >
+        <section class="flex flex-column items-center mtb-50 gap-25">
           <div class="grid-card">
             <div class="card flex flex-column gap-5">
               <img
@@ -139,7 +131,63 @@
             </div>
           </div>
         </section>
+
+        <!-- Services Section -->
+        <section class="flex flex-column items-center mtb-50 gap-25">
+          <h2>Services</h2>
+
+          <div class="grid-services">
+            <div class="dropdown">
+              <button class="dropbtn">
+                <h3>Nature</h3>
+                <img
+                  class="icon-dropbtn"
+                  src="/assets/icons/icon-arrow.svg"
+                  alt="Icon Arrow"
+                />
+              </button>
+              <div class="dropdown-content">
+                <p>Photographie de paysages naturels</p>
+                <p>Photographie animalière</p>
+                <p>Photographie de la faune et de la flore</p>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                <h3>Événements</h3>
+                <img
+                  class="icon-dropbtn"
+                  src="/assets/icons/icon-arrow.svg"
+                  alt="Icon Arrow"
+                />
+              </button>
+              <div class="dropdown-content">
+                <p>Photographie de mariage</p>
+                <p>Photographie d'anniversaire</p>
+                <p>Photographie d'événements sportifs</p>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">
+                <h3>Portrait</h3>
+                <img
+                  class="icon-dropbtn"
+                  src="/assets/icons/icon-arrow.svg"
+                  alt="Icon Arrow"
+                />
+              </button>
+              <div class="dropdown-content">
+                <p>Photographie de portrait individuel</p>
+                <p>Photographie de portrait de groupe</p>
+                <p>Photographie de portrait professionnel</p>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </main>
+    <script src="/assets/js/dropdown.js"></script>
   </body>
 </html>
