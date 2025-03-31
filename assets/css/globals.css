@@ -17,8 +17,8 @@
   --color-white: #ffffff;
 
   /* Opa Color */
-  --color-opa-dark: #0a0a0a20;
-  --color-opa-white: #ffffff20;
+  --color-opa-dark: #00000030;
+  --color-opa-white: #ffffff30;
 
   /* Font Family */
   --font-family-primary: "BDO Grotesk", "Arial", sans-serif;
@@ -44,7 +44,7 @@
 
 ::selection {
   background: none;
-  text-shadow: 0 0 10px var(--color-white);
+  text-shadow: 0 0 6px var(--color-white);
 }
 
 /* Font Style */
@@ -79,6 +79,10 @@ h3 {
 p {
   font-size: var(--font-size-p);
   font-weight: var(--font-weight-regular);
+}
+
+.p-grey {
+  color: var(--color-opa-white);
 }
 
 /* Reset */

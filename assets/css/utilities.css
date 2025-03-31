@@ -94,6 +94,10 @@
   padding: calc(var(--spacing-unit) * 10);
 }
 
+.p-15 {
+  padding: calc(var(--spacing-unit) * 15);
+}
+
 .p-25 {
   padding: calc(var(--spacing-unit) * 25);
 }

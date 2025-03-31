@@ -162,6 +162,21 @@ section {
   grid-row-gap: 3.125rem;
 }
 
+.copy-contact {
+  background-color: var(--color-opa-dark);
+  border: dashed 1px var(--color-opa-white);
+
+  cursor: pointer;
+}
+
+.copy-contact:hover h2 {
+  transform: scale(0.96);
+}
+
+footer {
+  width: 100%;
+}
+
 /* Media Queries */
 @media screen and (min-width: 2560px) {
   .hero-section {
