@@ -4,7 +4,7 @@ document.querySelectorAll(".card img").forEach((img) => {
   img.addEventListener("click", function () {
     // Change l'image affichée en utilisant la src de l'image cliquée
     document.getElementById("lightbox-img").src = this.src;
-    // Affiche la modale
+    // Affiche le modale
     document.getElementById("lightbox").style.display = "flex";
   });
 });
@@ -13,7 +13,7 @@ document.querySelectorAll(".card img").forEach((img) => {
 document
   .getElementById("close-lightbox")
   .addEventListener("click", function () {
-    // Cache la modale
+    // Cache le modale
     document.getElementById("lightbox").style.display = "none";
   });
 
