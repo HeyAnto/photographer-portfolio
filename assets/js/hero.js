@@ -1,13 +1,13 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Tableau contenant les url des images
   const images = [
-    "/assets/img/hero/image-hero-1.webp",
-    "/assets/img/hero/image-hero-2.webp",
-    "/assets/img/hero/image-hero-3.webp",
-    "/assets/img/hero/image-hero-4.webp",
-    "/assets/img/hero/image-hero-5.webp",
-    "/assets/img/hero/image-hero-6.webp",
-    "/assets/img/hero/image-hero-7.webp",
+    "assets/img/hero/image-hero-1.webp",
+    "assets/img/hero/image-hero-2.webp",
+    "assets/img/hero/image-hero-3.webp",
+    "assets/img/hero/image-hero-4.webp",
+    "assets/img/hero/image-hero-5.webp",
+    "assets/img/hero/image-hero-6.webp",
+    "assets/img/hero/image-hero-7.webp",
   ];
 
   // Démarre à l'index 0 du tableau
