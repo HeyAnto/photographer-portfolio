@@ -11,7 +11,8 @@
   src: url(../fonts/InstrumentSerif-Regular.ttf) format("truetype");
 }
 
-:root {
+/* Dark Theme */
+[data-theme="dark"] {
   /* Primary Color */
   --color-dark: #0a0a0a;
   --color-white: #ffffff;
@@ -19,7 +20,20 @@
   /* Opa Color */
   --color-opa-dark: #00000030;
   --color-opa-white: #ffffff30;
+}
 
+/* Light Theme */
+[data-theme="light"] {
+  /* Primary Color */
+  --color-dark: #ffffff;
+  --color-white: #0a0a0a;
+
+  /* Opa Color */
+  --color-opa-dark: #ffffff30;
+  --color-opa-white: #00000030;
+}
+
+:root {
   /* Font Family */
   --font-family-primary: "BDO Grotesk", "Arial", sans-serif;
   --font-family-secondary: "Instrument Serif", serif;
@@ -31,8 +45,8 @@
   --font-size-h3: 1.25rem;
 
   /* Font Weight */
-  --font-weight-regular: 300;
-  --font-weight-bold: 400;
+  --font-weight-regular: 400;
+  --font-weight-bold: 500;
 
   /* Line heights */
   --line-height-title: 90%;

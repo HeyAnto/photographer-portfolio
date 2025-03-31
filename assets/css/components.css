@@ -1,3 +1,8 @@
+/* Logo John */
+.logo-john {
+  color: var(--color-white);
+}
+
 /* Dropdown */
 .dropdown {
   position: relative;
@@ -71,6 +76,7 @@
   padding: 20px;
 
   background: #000000cd;
+  z-index: 50;
 }
 
 .lightbox img {
