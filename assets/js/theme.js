@@ -4,15 +4,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const iconDark = document.getElementById("icon-dark");
   const iconLight = document.getElementById("icon-light");
 
-  // Définir le thème par défaut en dark si rien n'est stocké
+  // Thème par défaut en dark
   const savedTheme = localStorage.getItem("theme") || "dark";
   htmlElement.setAttribute("data-theme", savedTheme);
   updateIcons(savedTheme);
 
-  // Ajouter un événement au clic pour changer le thème
+  // Changer le thème
   themeToggle.addEventListener("click", () => {
     const currentTheme = htmlElement.getAttribute("data-theme");
-    const newTheme = currentTheme === "dark" ? "light" : "dark"; // Correction ici
+    const newTheme = currentTheme === "dark" ? "light" : "dark";
 
     htmlElement.setAttribute("data-theme", newTheme);
     localStorage.setItem("theme", newTheme);
