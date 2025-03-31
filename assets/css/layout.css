@@ -74,15 +74,11 @@ body::before {
   opacity: 0.5;
 }
 
-.scroll-down object {
-  width: 30px;
-  height: 30px;
-
-  animation: bounce 1.5s infinite;
-}
-
 .scroll-icon {
+  height: 24px;
+
   --icon-color: var(--color-white);
+  animation: bounce 1.5s infinite;
 }
 
 .scroll-down:hover {

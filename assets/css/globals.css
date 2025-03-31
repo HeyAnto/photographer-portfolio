@@ -91,3 +91,7 @@ button {
   background: none;
   border: none;
 }
+
+object {
+  pointer-events: none;
+}

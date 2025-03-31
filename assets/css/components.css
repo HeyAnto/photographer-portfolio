@@ -1,23 +1,15 @@
 /* Dropdown */
 .dropdown {
-  display: flex;
-  flex-direction: column;
   position: relative;
   width: 100%;
   height: fit-content;
 
   color: var(--color-dark);
   background-color: var(--color-white);
-  border-radius: 0.875rem;
   overflow: hidden;
 }
 
 .dropbtn {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 0.875rem;
   cursor: pointer;
 }
 
@@ -25,12 +17,9 @@
   color: var(--color-dark);
 }
 
-.dropbtn:hover h3 {
-  opacity: 0.8;
-}
-
+.dropbtn:hover h3,
 .dropbtn:hover .icon-dropbtn {
-  opacity: 0.8;
+  opacity: 0.6;
 }
 
 .icon-dropbtn {
@@ -39,16 +28,13 @@
 }
 
 .dropdown-content {
-  display: flex;
-  flex-direction: column;
-
   padding: 0 0.875rem;
   max-height: 0;
   opacity: 0;
 }
 
 .dropdown.open .dropdown-content {
-  max-height: 300px;
+  max-height: 500px;
   opacity: 1;
   padding: 0.875rem;
 }
