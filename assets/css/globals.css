@@ -101,6 +101,7 @@ p {
 
 /* Reset */
 a {
+  color: var(--color-white);
   text-decoration: none;
   cursor: pointer;
 }
