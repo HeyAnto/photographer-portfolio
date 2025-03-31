@@ -42,3 +42,60 @@
 .dropdown.open .icon-dropbtn {
   transform: rotate(180deg);
 }
+
+/* Card */
+.card {
+  width: 100%;
+  max-width: 480px;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.card img {
+  width: 100%;
+}
+
+/* Light Box */
+.lightbox {
+  display: none;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+
+  background: #000000cd;
+}
+
+.lightbox img {
+  width: 100%;
+  max-width: 800px;
+  object-fit: contain;
+}
+
+.lightbox span {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+  color: var(--color-white);
+  cursor: pointer;
+  font-size: 2.125rem;
+}
+
+/* Contact Copy */
+.copy-contact {
+  background-color: var(--color-opa-dark);
+  border: dashed 1px var(--color-opa-white);
+
+  cursor: pointer;
+}
+
+.copy-contact:hover h2 {
+  transform: scale(0.96);
+}

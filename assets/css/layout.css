@@ -144,15 +144,6 @@ section {
   grid-row-gap: 3.125rem;
 }
 
-.card {
-  width: 100%;
-  max-width: 480px;
-}
-
-.card img {
-  width: 100%;
-}
-
 .grid-services {
   width: 100%;
   display: grid;
@@ -160,17 +151,6 @@ section {
   grid-template-rows: 1fr;
   grid-column-gap: 3.125rem;
   grid-row-gap: 3.125rem;
-}
-
-.copy-contact {
-  background-color: var(--color-opa-dark);
-  border: dashed 1px var(--color-opa-white);
-
-  cursor: pointer;
-}
-
-.copy-contact:hover h2 {
-  transform: scale(0.96);
 }
 
 footer {
@@ -247,5 +227,11 @@ footer {
 
   .copy-contact h2 {
     font-size: 1.5rem;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center;
   }
 }
